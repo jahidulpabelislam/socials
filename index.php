@@ -22,22 +22,23 @@
                 ;
             }
 
+            body {
+                height: 100vh;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                align-items: center;
+                text-align: center;
+            }
+
             h1 {
                 font-family: Cabin, sans-serif;
                 color: #0375b4;
+                width: 100%;
             }
         </style>
     </head>
-    <body
-        style="
-            height: 100vh;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            align-items: center;
-            text-align: center;
-        "
-    >
-        <h1 style="width: 100%;">COMING SOON!</h1>
+    <body>
+        <h1>COMING SOON!</h1>
     </body>
 </html>
