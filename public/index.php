@@ -5,7 +5,6 @@ include_once(__DIR__ . "/../vendor/autoload.php");
 $site = \JPI\Site::get();
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en-GB">
     <head>
