@@ -1,3 +1,5 @@
+<?php $site = \JPI\Site::get(); ?>
+
 <!DOCTYPE html>
 <html lang="en-GB">
     <head>
@@ -33,7 +35,7 @@
 
             h1 {
                 font-family: Cabin, sans-serif;
-                color: #0375b4;
+                color: <?= $site->getBrandColour(); ?>;
                 width: 100%;
             }
         </style>
